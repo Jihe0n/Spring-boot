@@ -1,0 +1,56 @@
+1.DTO
+form 태그 안쪽에 태그에 name이랑 
+객체를 받기위해 만든 DTO 클래스의 필드명을 같게 만들어야 
+form 태그에서 보낸 값을 DTO를 통해서 컨트롤러에서 잘 받을 수 있다. 
+
+2. 폼데이터 주고받기
+form 태그의 action, method 를 통해서
+컨트롤러에서 post매핑으로 action 으로 준 주소값을 통해 주고받는다
+근데 던져준 form 데이터는 객체로 받기위해서 DTO 클래스를 생성하고
+DTO클래스를 타입으로 같는 변수를 선언하여 컨트롤러에서 받을 수 있다.
+
+3. JPA
+서버는 자바로 되어있지만 DB는 자바를 모르기때문에
+JPA가 필요한데 이놈이 자바언어를 DB가 이해할 수 있게 해주고
+데이터 관리에 필요한 여러 기능들을 제공함
+JPA의 핵심은 Entity와 Repository가 있음
+Entity는 자바객체를 DB가 이해할 수 있게 규격화한 데이터
+이러한 Entity는  Repository라는 일꾼에 의해 전달되고 처리됨
+
+4. DB에 저장
+흐름 : 데이터가 사용자에 의해서 오면 DTO로 컨트롤러에게 전달되고
+DTO를 Entity로 변환하고 Repository를 통해서 DB까지 저장됨
+따라서  1) DTO를 Entity로 변환
+2) Repository에게 Entity를 DB안에 저장하게 시킴
+
+5. yml, yaml
+xml, json 과 같은 데이터 포맷
+주석을 넣을 수 있으며 읽기 편하다
+
+기본 문법
+main syntax
+	HashMap(Key - Value) 을 기본 구조로한다.
+	Value 타입은 Array, String, Number, Boolean 등이 가능하다.
+	json처럼 계층 구조를 가질 수 있다.
+	json과 달리 "" (double quotation marks) 없이 문자열 작성 가능.
+special syntax
+	계층 단계 이동시, 다음 줄에서 Tab 대신에 space bar 2칸으로 들여쓰기해야한다.
+	- (하이픈) 으로 배열의 원소를 나타낸다.
+	하이픈 다음엔 반드시 space bar 1칸이 필요하다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
