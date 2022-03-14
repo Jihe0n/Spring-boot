@@ -48,8 +48,8 @@ special syntax
 
 7. 통상적으로
 get방식 > 데이터 조회
-post방식 > 데이터 수정
-put방식 > 데이터 생성
+post방식 > 데이터 생성
+put방식 > 데이터 수정
 delete방식 > 데이터 삭제
 
 
@@ -63,6 +63,9 @@ https://www.youtube.com/watch?v=lvVQ7WTLND4
 https://www.youtube.com/watch?v=zOFs-BPxIxY
 외국 유튜버 
 
+
+소프트웨어가 다른 소프트웨어로 부터 
+정해진 형식으로 요청하고 응답 받을 수 있는 수단을 api라고 부름 
 
 
 
