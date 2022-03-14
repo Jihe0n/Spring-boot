@@ -43,13 +43,25 @@ special syntax
 코드의 재사용을 최소화 하는 리팩토링 기법
 
 
+6. 스프링은 어노테이션 기반이다
 
 
-Optional<T>
+7. 통상적으로
+get방식 > 데이터 조회
+post방식 > 데이터 수정
+put방식 > 데이터 생성
+delete방식 > 데이터 삭제
 
 
+8. mybatis
+자바의 메서드와 sql을 매핑해주는 라이브러리
 
 
+https://www.youtube.com/watch?v=lvVQ7WTLND4
+22분 ~ 29분 
+
+https://www.youtube.com/watch?v=zOFs-BPxIxY
+외국 유튜버 
 
 
 
